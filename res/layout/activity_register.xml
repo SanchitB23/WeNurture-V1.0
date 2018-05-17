@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:background="#4DD0E1">
+
+        <TextView
+            android:id="@+id/app_name_register"
+            style="@style/RegisterLayoutStyle"
+            android:text="@string/app_name"
+            android:textColor="#E53935"
+            android:textSize="45sp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/RegisterLayoutStyle">
+            <EditText
+                style="@style/RegisterLayoutStyle"
+                android:id="@+id/textAddName"
+                android:inputType="textCapWords"
+                android:hint="Full Name"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/RegisterLayoutStyle">
+        <EditText
+            style="@style/RegisterLayoutStyle"
+            android:id="@+id/textAddEMail"
+            android:inputType="textEmailAddress"
+            android:hint="Email ID"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/RegisterLayoutStyle">
+            <EditText
+                style="@style/RegisterLayoutStyle"
+                android:id="@+id/textAddPhoneNum"
+                android:hint="Phone Number"
+                android:inputType="phone"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/RegisterLayoutStyle">
+            <EditText style="@style/RegisterLayoutStyle"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:id="@+id/textAddPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/RegisterLayoutStyle">
+            <EditText style="@style/RegisterLayoutStyle"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"
+                android:id="@+id/textAddConfirmPassoword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/RegisterLayoutStyle">
+        <EditText style="@style/RegisterLayoutStyle"
+            android:inputType="number"
+            android:hint="System ID"
+            android:id="@+id/textAddSystemID"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            style="@style/RegisterLayoutStyle">
+        <EditText style="@style/RegisterLayoutStyle"
+            android:hint="Roll Number"
+            android:inputType="number"
+            android:id="@+id/textAddRollNum" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/registerButton"
+            style="@style/RegisterLayoutStyle"
+            android:background="#00ACC1"
+            android:backgroundTint="#00ACC1"
+            android:text="Register" />
+
+        <TextView android:id="@+id/link_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Already a member? Login"
+            android:gravity="center"
+            android:textSize="16dip"/>
+
+    </LinearLayout>
+</ScrollView>

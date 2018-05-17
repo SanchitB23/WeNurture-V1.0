@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:background="#26c6da">
+    
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/userDP"
+        android:paddingTop="8dp"
+        android:src="@drawable/icons8administratormale80"
+        android:contentDescription="User_Profile_Picture"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="System ID"/>
+
+</LinearLayout>

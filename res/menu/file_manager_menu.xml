@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item android:title="Log Out"
+        android:id="@+id/logOutMenuItem"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/accInfoItem"
+        android:title="Account Info"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/feedbackMenuItem"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Contact Faculty"
+        android:id="@+id/contactUsMenuItem"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="About"
+        android:id="@+id/aboutAppMenuItem"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Check Attendance"
+        android:id="@+id/checkAttendanceMenuItem"
+        android:icon="@drawable/ic_attendace"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WeNurture</string>
+    <string name="title_activity_login_test">Sign in</string>
+
+    <string name="login_user_details">Email or System ID</string>
+    <string name="name">Full Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="system_id">System ID</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="register_button">Register</string>
+    <string name="title_activity_navigation_drawer_left">NavigationDrawerLeft</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="navi_drawer_open">Open Navigation Drawer</string>
+    <string name="navi_drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_navigation_drawer2">NavigationDrawerActivity2</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="launch_button">Click Here To Continue</string>
+    <string name="skip_sign_in">Skip Sign In</string>
+</resources>
+

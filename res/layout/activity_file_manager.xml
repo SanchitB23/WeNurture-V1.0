@@ -1,0 +1,12 @@
+<ListView android:id="@+id/file_list"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#4DD0E1">
+    <!--<include-->
+    <!--layout="@layout/app_bar_main"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+</ListView>

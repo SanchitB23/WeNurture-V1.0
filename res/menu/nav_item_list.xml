@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_navigation_drawer">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navHome"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/navAccInfo"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Account Information" />
+
+        <item
+            android:id="@+id/navVAttendance"
+            android:icon="@drawable/ic_launch_black_24dp"
+            android:title="Check Attendance" />
+
+        <item
+            android:id="@+id/navLogOut"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Log Out" />
+
+        <item android:title="Communicate With Us">
+            <menu>
+                <item
+                    android:id="@+id/navFeedBack"
+                    android:icon="@drawable/ic_feedback_black_24dp"
+                    android:title="Feedback" />
+                <item
+                    android:id="@+id/navContactUs"
+                    android:icon="@drawable/ic_supervisor_account_black_24dp"
+                    android:title="Contact Us" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.mrawesome.wenurture.MainActivity">
+
+    <ImageView
+        android:id="@+id/appIconImage"
+        android:layout_width="259dp"
+        android:layout_height="221dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/ic_launcher_final" />
+
+    <TextView
+        android:id="@+id/app_name_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
+        android:text="WeNurture"
+        android:textSize="55sp"
+        android:textColor="#E53935"
+        android:background="#4DD0E1"
+        android:shadowColor="#00838F"
+        android:elevation="5dp"/>
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/launch_button"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/button_design"
+        android:elevation="10dp"/>
+
+
+</RelativeLayout>
